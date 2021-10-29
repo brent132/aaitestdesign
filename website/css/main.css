@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+::-webkit-scrollbar {
+  width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #76c89375;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #76C893;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #57966d;
+}
+
+body {
+  font-family: 'poppins';
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  padding: 1.3rem 0;
+  width: 80%;
+}
+
+.logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.logo img {
+  width: 7.375rem;
+}
+
+nav {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+nav li {
+  margin: 0 3rem;
+}
+
+nav a {
+  color: #222;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+nav a:hover {
+  color: #76C893;
+}
+
+nav .active {
+  border-bottom: solid 0.125rem #76C893;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.button-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.button {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: solid 2px #76C893;
+  border-radius: 2px;
+  height: 2.125rem;
+  width: 6.625rem;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.button a {
+  color: #76C893;
+}
+
+.button:hover {
+  background: #76C893;
+  -webkit-box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.25);
+}
+
+.button:hover a {
+  color: #fff;
+}
+
+.hero-container {
+  background-image: url("../images/hero__background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85.375rem auto;
+  height: 28.1875rem;
+}
+
+.hero {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  height: 80%;
+  width: 80%;
+}
+
+.image img {
+  width: 26.1875rem;
+  height: 10.0625rem;
+}
+
+.enroll-details p {
+  color: #fff;
+  max-width: 25.9375rem;
+  font-size: 0.875rem;
+}
+
+.enroll-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.enroll-button svg {
+  margin: 0 2rem;
+}
+
+.enroll-button path {
+  -webkit-animation: scroll ease 1.5s infinite;
+          animation: scroll ease 1.5s infinite;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  30% {
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  30% {
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+  }
+}
+
+.enroll {
+  border: solid 2px white;
+  border-radius: 2px;
+  height: 2.125rem;
+  width: 6.625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  bottom: 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.enroll a {
+  color: white;
+}
+
+.enroll:hover {
+  background: #fff;
+  -webkit-box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 5px 10px -2px rgba(0, 0, 0, 0.25);
+}
+
+.enroll:hover a {
+  color: #76C893;
+}
+
+.social-container {
+  padding: 1.5rem 0;
+}
+
+.social-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-container a {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #76C893;
+  opacity: 50%;
+  margin: 0 3rem;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.social-container a:hover {
+  opacity: 100%;
+}
+
+.advisers-container {
+  margin: 0 0 4rem 0;
+}
+
+.title {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 4rem 0;
+}
+
+.title p span {
+  color: #76C893;
+}
+
+.title p:nth-child(1) {
+  color: #222;
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+.title p:nth-child(2) {
+  color: #76C893;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.carousel {
+  position: relative;
+  width: 60%;
+  height: 28rem;
+  margin: 0 auto;
+}
+
+.carousel__track-container {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carousel__track {
+  position: relative;
+  height: 100%;
+  -webkit-transition: -webkit-transform .25s ease-in;
+  transition: -webkit-transform .25s ease-in;
+  transition: transform .25s ease-in;
+  transition: transform .25s ease-in, -webkit-transform .25s ease-in;
+}
+
+.carousel__track .current-slide {
+  background: none;
+}
+
+.carousel__slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slide__content-container {
+  background: #fff;
+  -webkit-box-shadow: 0px 8px 15px -3px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 8px 15px -3px rgba(0, 0, 0, 0.25);
+  width: 94%;
+  height: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slide__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.picture {
+  background: #fff;
+  width: 40%;
+  height: 100%;
+  margin: 0 3rem 0 0;
+}
+
+.picture img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.name {
+  margin: 1rem 0 3rem 0;
+}
+
+.name p:nth-of-type(1) {
+  font-size: 1.125rem;
+  max-width: 20rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.name p:nth-of-type(2) {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #76C893;
+}
+
+.info p {
+  color: #C4C4C4;
+  max-width: 20rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: transparent;
+  border: none;
+}
+
+.carousel__button img {
+  width: 2rem;
+}
+
+.carousel__button-left {
+  left: -2rem;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.is-hidden {
+  display: none;
+}
+
+.carousel__button-right {
+  right: -2rem;
+}
+
+.carousel__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel__indicator {
+  background: #BBE3C9;
+  border-radius: 50%;
+  margin: 0 .2rem;
+  border: 0;
+  width: 7px;
+  height: 7px;
+  cursor: pointer;
+}
+
+.current-slide {
+  background: #76C893;
+}
+/*# sourceMappingURL=main.css.map */
